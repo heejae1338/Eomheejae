@@ -54,11 +54,11 @@ rebase, merge 하고 싶으면 새로운브랜치로 이동해서 git rebase 중
 
 squash and merge 하면 git merge --squash 새브랜치 하면 메인 브랜치의 로그 출력 시 깔끔함
 
-commit 고우 id를 통해 시간여행 가능
+commit 고유 id를 통해 시간여행 가능
 
 파일 하나를 되돌리려면 git restore 파일명
 
-최근 commit 된 상태로 현재 파을의 수정 내역을 되돌릴 수 있음
+최근 commit 된 상태로 현재 파일의 수정 내역을 되돌릴 수 있음
 
 git restore --source 커밋아이디 파일명
 
