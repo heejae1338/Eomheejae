@@ -83,7 +83,6 @@ git reset --soft 커밋아이디 하면 a, c 파일은 남아있고 b 파일은 
 git reset --mixed 커밋아이디 하면 a, c 파일은 남아있고 b 파일은 staging 되지 않은 상태가 됨.
 (git add하고 commit)
 
-
 기본 브랜치 이름을 main으로 설정
 
 git branch -M main
@@ -100,9 +99,11 @@ git remote add 변수명 저장소주소 입력하면 변수로 지정
 
 원격저장소에 있던거 그대로 내려받으려면 git clone https: //원격저장소주소
 
-*저장소에 올리지 않는 파일들은 .gitignore에 명시
+\*저장소에 올리지 않는 파일들은 .gitignore에 명시
 
 git push 시 팀원이 push한 상태에서 push가 동작하지 않을 수 있음
+
+원격저장소에 새로운게 생기면 push 못함
 
 - TypeScript
 
