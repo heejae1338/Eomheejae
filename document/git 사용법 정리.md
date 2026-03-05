@@ -1,4 +1,5 @@
 # 코딩 정리노트
+
 - git(버전 관리 시스템), github 사용법
 
 작업한 코드 기록 및 보관 가능(백업, 열람 가능)
@@ -53,23 +54,34 @@ rebase, merge 하고 싶으면 새로운브랜치로 이동해서 git rebase 중
 
 squash and merge 하면 git merge --squash 새브랜치 하면 메인 브랜치의 로그 출력 시 깔끔함
 
+commit 고우 id를 통해 시간여행 가능
 
+파일 하나를 되돌리려면 git restore 파일명
 
+최근 commit 된 상태로 현재 파을의 수정 내역을 되돌릴 수 있음
 
+git restore --source 커밋아이디 파일명
 
+이러면 입력한 파일이 특정 커밋아이디 시점으로 복구
 
+git restore --staged 파일명
 
+특정 파일을 stagigng 취소 가능
 
+commit 취소하고 싶으면 git revert 사용
 
+git revert 커밋아이디 입력 시 해당 커밋아이디에서 일어난 일만 취소
 
+git reset --hard 커밋아이디 입력 시 그 커밋이 생성될 때로 시간 여행 시켜줌
 
+프로젝트 망하거나 짧은 거리 돌아갈 때 사용하면 됨
 
+\*여러명이서 협업하는 리포지토리에는 reset 사용 금지\*
 
+git reset --soft 커밋아이디 하면 a, c 파일은 남아있고 b 파일은 staging area(commit 가능)
 
-
-
-
-
+git reset --mixed 커밋아이디 하면 a, c 파일은 남아있고 b 파일은 staging 되지 않은 상태가 됨.
+(git add하고 commit)
 
 - TypeScript
 
