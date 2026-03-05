@@ -102,7 +102,7 @@ git remote add 변수명 저장소주소 입력하면 변수로 지정
 
 *저장소에 올리지 않는 파일들은 .gitignore에 명시
 
-
+git push 시 팀원이 push한 상태에서 push가 동작하지 않을 수 있음
 
 - TypeScript
 
